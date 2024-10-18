@@ -15,5 +15,10 @@ public class Student {
 	public void setPlace(String place) {
 		this.place = place;
 	}
+	public Student(String name, String place) {
+		super();
+		this.name = name;
+		this.place = place;
+	}
 	
 }
